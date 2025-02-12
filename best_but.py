@@ -18,7 +18,6 @@ class BestBuy(scrapy.Spider):
 
     def start_requests(self):
         # First request with empty `page=` parameter
-        urls = ["https://www.bestbuy.ca/api/v2/json/search?categoryid=&currentRegion=ON&include=facets%2C%20redirects&lang=en-CA&page=&pageSize=&path=&query=15312097%2018348998%2016391563%2015698810%2015443656%2015756969%2015312099%2016390495&exp=&token=&contextId=&hasConsent=true&sortBy=relevance&sortDir=desc"]
         # first_url = self.base_url.format(page="")
         # yield scrapy.Request(
         #     first_url,
